@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Posts from "./pages/Posts"
 import PostIndex from "./pages/posts/Index"
+import PostShow from "./pages/posts/Show"
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
             <Route path="/about" element={<About />}></Route>
             <Route path="/posts">
               <Route path="" Component={PostIndex}></Route>
-              {/* <Route path=':id' Component={PostShow} ></Route> */}
+              <Route path=':id' Component={PostShow} ></Route>
             </Route>
           </Route>
         </Routes>

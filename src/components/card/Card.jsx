@@ -11,7 +11,7 @@ export default function Card({ post = {} }) {
         <div>
             <div>
 
-                <img src={placeHolderImage} alt="" />
+                <img src={`${BASE_URI}/${image}`} alt="" />
 
             </div>
             <div>
