@@ -1,0 +1,44 @@
+.nav-bar {
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.nav-bar .active {
+  color: blue;
+}
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-size: 32px;
+  margin: 32px 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.post-list {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
